@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/liangyiming.css" type="text/css" />
+		<title>梁一鸣</title>
+	</head>
+	<body class="bod">
+		<h1>高考志愿填报(输入框透明,点击即可输入)</h1>
+		<div class="d1">
+			<fieldset>
+				<legend>个人信息</legend>
+				<table border="1" width="90%">
+					<tr>
+						<th>考生姓名</th>
+						<td><input type="text" name="name" value="name" /></td>
+						<th>性别</th>
+						<td>
+							<input type="radio" name="sex">男</input>
+							<input type="radio" name="sex">女</input>
+						</td>
+						<th>出生日期</th>
+						<td>
+							<input type="date" name="date" id="date" />
+						</td>
+						<td rowspan="4">
+							<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3680604140,401532791&fm=179&app=42&f=JPEG?w=121&h=140" />
+						</td>
+					</tr>
+					<tr>
+						<th>考生号</th>
+						<td>
+							<input type="text" name="i" />
+						</td>
+						<th>年龄</th>
+						<td>
+							<input type="text" name="" />
+						</td>
+						<th>政治面貌</th>
+						<td>
+							<select name="dangpai">
+								<option value="middle">共青团员</option>
+								<option value="small">少先队员</option>
+								<option value="big">预备党员</option>
+								<option value="else">其他党派</option>
+								<option value="none">无党派人士</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>身份证号</th>
+						<td>
+							<input type="text" name="ID" value="" />
+						</td>
+						<th>籍贯</th>
+						<td>
+							<input type="text" name="addr" value="" />
+						</td>
+						<th>毕业学校</th>
+						<td>
+							<input type="text" name="school" value="" />
+						</td>
+					</tr>
+					<tr>
+						<th>email</th>
+						<td>
+							<input type="email" name="email" value="" />
+						</td>
+						<th>Tel</th>
+						<td>
+							<input type="number" name="tel" value="10086" />
+						</td>
+						<th>QQ</th>
+						<td>
+							<input type="number" name="qq" value="" />
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>家庭成员信息</legend>
+				<table border="1" width="90%">
+					<tr>
+						<th>姓名</th>
+						<th>年龄</th>
+						<th>与本人关系</th>
+						<th>工作单位</th>
+						<th>职业</th>
+						<th>电话号码</th>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="name1" />
+						</td>
+						<td>
+							<input type="number" name="age1" />
+						</td>
+						<td>
+							<select>
+								<option>母亲</option>
+								<option>父亲</option>
+								<option>祖父（母）</option>
+								<option>外祖（母）</option>
+								<option>其他</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name="workplace1" />
+						</td>
+						<td>
+							<input type="text" name="job1" />
+						</td>
+						<td>
+							<input type="number" name="TEL1" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="name1" />
+						</td>
+						<td>
+							<input type="number" name="age1" />
+						</td>
+						<td>
+							<select>
+								<option>父亲</option>
+								<option>母亲</option>
+								<option>祖父（母）</option>
+								<option>外祖（母）</option>
+								<option>其他</option>
+							</select>
+						</td>
+						<td>
+							<input type="text" name="workplace2" />
+						</td>
+						<td>
+							<input type="text" name="job2" />
+						</td>
+						<td>
+							<input type="number" name="TEL2" />
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>志愿填报</legend>
+				<table border="1" width="90%">
+					<tr>
+						<th>高等院校</th>
+						<th>专业 1</th>
+						<th>专业 2</th>
+						<th>专业 3</th>
+						<th>专业 4</th>
+						<th>服从调剂</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="清华大学" /></th>
+						<th><input type="text" name="major1" value="计算机类" /></th>
+						<th><input type="text" name="major2" value="理科试验班类(经济、金融与管理)" /></th>
+						<th><input type="text" name="major3" value="理科试验班类(数理)" /></th>
+						<th><input type="text" name="major4" value="临床医学类(协和)" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="上海交通大学" /></th>
+						<th><input type="text" name="major1" value="理科试验班类(含致远)" /></th>
+						<th><input type="text" name="major2" value="电子信息类(IEEE试点班)" /></th>
+						<th><input type="text" name="major3" value="人工智能" /></th>
+						<th><input type="text" name="major4" value="经济管理试验班" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="中国科学技术大学" /></th>
+						<th><input type="text" name="major1" value="理科试验班类(科技英才班)" /></th>
+						<th><input type="text" name="major2" value="工科试验班(科技英才班)" /></th>
+						<th><input type="text" name="major3" value="理科试验班类(00班)" /></th>
+						<th><input type="text" name="major4" value="计算机类" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="浙江大学" /></th>
+						<th><input type="text" name="major1" value="工科试验班(竺可桢学院图灵班)" /></th>
+						<th><input type="text" name="major2" value="工科试验班(竺可桢学院交叉创新平台)" /></th>
+						<th><input type="text" name="major3" value="工科试验班(信息)" /></th>
+						<th><input type="text" name="major4" value="医学试验班类(“5+3”一体化培养)" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="北京航空航天大学" /></th>
+						<th><input type="text" name="major1" value="工科试验班类(信息类)" /></th>
+						<th><input type="text" name="major2" value="工科试验班类(航空航天类)" /></th>
+						<th><input type="text" name="major3" value="理科试验班类" /></th>
+						<th><input type="text" name="major4" value="工科试验班类(医工交叉试验班)" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="上海财经大学" /></th>
+						<th><input type="text" name="major1" value="金融学" /></th>
+						<th><input type="text" name="major2" value="数据科学与大数据技术(工学)" /></th>
+						<th><input type="text" name="major3" value="统计学类" /></th>
+						<th><input type="text" name="major4" value="会计学" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="哈尔滨工业大学(深圳校区)" /></th>
+						<th><input type="text" name="major1" value="工科试验班（计算机与电子通信）" /></th>
+						<th><input type="text" name="major2" value="工科试验班（航天与自动化）" /></th>
+						<th><input type="text" name="major3" value="工科试验班（智能装备）" /></th>
+						<th><input type="text" name="major4" value="工科试验班（数学物理与光电科学）" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="华中科技大学" /></th>
+						<th><input type="text" name="major1" value="计算机科学与技术（计算机卓越计划实验班）" /></th>
+						<th><input type="text" name="major2" value="临床医学（本硕博贯通培养）" /></th>
+						<th><input type="text" name="major3" value="电气工程及其自动化（电气卓越计划实验班）" /></th>
+						<th><input type="text" name="major4" value="生物医学工程（工医理交叉国际化实验班）" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="中山大学" /></th>
+						<th><input type="text" name="major1" value="临床医学（八年制）" /></th>
+						<th><input type="text" name="major2" value="计算机类" /></th>
+						<th><input type="text" name="major3" value="口腔医学（5+3）" /></th>
+						<th><input type="text" name="major4" value="经济学类" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th><input type="text" name="school" value="北京理工大学" /></th>
+						<th><input type="text" name="major1" value="徐特立英才班" /></th>
+						<th><input type="text" name="major2" value="电子信息工程（实验班）" /></th>
+						<th><input type="text" name="major3" value="信息科学技术类" /></th>
+						<th><input type="text" name="major4" value="智能制造与车辆实验班" /></th>
+						<th>
+							<select>
+								<option>是</option>
+								<option>否</option>
+							</select>
+						</th>
+					</tr>
+				</table>
+			</fieldset>
+		</div>
+	</body>
+</html>
