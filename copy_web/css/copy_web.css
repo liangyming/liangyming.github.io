@@ -37,6 +37,7 @@
 
 .row {
 	background-color: blanchedalmond;
+	width: 62%;
 }
 
 /* 响应式布局 - 宽度小于600px时设置上下布局 */
