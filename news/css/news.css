@@ -1,0 +1,108 @@
+.topbox {
+	margin: auto;
+}
+
+.box {
+	width: 80%;
+	margin: auto;
+}
+
+body {
+	background-position-x: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.topbox2 {
+	display: inline-block;
+	position: relative;
+	left: 400px;
+}
+
+.qqlogin {
+	color: #60a5e4;
+	border: 1px solid #ededed;
+	background-color: #f5f5f5;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	float: left;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.qqlogin:hover {
+	border-color: #cae0f3;
+}
+
+.header {
+	/* 头部布局 */
+	background-color: #F1F1F1;
+	text-align: center;
+	height: 70px;
+	background-color: aliceblue;
+}
+
+.center {
+	/* 居中显示 */
+	margin: auto;
+	width: 63%;
+}
+
+li {
+	margin-left: 30px;
+}
+
+a:hover {
+	background-color: #CAE0F3;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+.lian1{
+	margin-top: 30px;
+	font-weight: bolder;
+}
+.lian2{
+	margin-top: 15px;
+}
+
+.tupian {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+/* 创建三个相等的列 */
+.column {
+	float: left;
+	width: 31.5%;
+	margin: 12px;
+}
+.column2 {
+	float: left;
+	width: 31.5%;
+	margin: 12px;
+	position: relative;
+	left: -10px;
+}
+
+/* 列后清除浮动 */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	margin: auto;
+}
+
+/* 响应式布局 - 小于 600 px 时改为上下布局 */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
