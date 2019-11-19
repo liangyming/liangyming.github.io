@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>添加表格</title>
+		<script src="js/js1.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			th{
+				width: 250px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="demo_form.php" method="post" name="form">
+			输入姓名: <input type="text" id="in1" required="required">
+			性别: 
+			<div style="display: inline-block;">
+				<input type="radio" name="sex" value="男" style="display: inline-block;">男
+				<input type="radio" name="sex" value="女" style="display: inline-block;">女<br>
+			</div>
+		</form>
+		<button type="button" onclick="add()" style="width: 100px;margin-top: 20px;background-color: bisque;">增加</button>
+		<table border="1" id="t" style="margin-top: 20px;">
+		    <tr style="background-color: cyan;">
+		        <th>主键(序号)</th>
+		        <th>姓名</th>
+				<th>性别</th>
+				<th>操作</th>
+		    </tr>
+		    <tr>
+		        <th>1</th>
+		        <th>张三</th>
+				<th>男</th>
+				<th><button type="button" style="background-color: coral;" onclick="rm(this)">删除</button></th>
+		    </tr>
+		    <tr>
+		        <th>2</th>
+		        <th>李四</th>
+		        <th>女</th>
+		        <th><button type="button" style="background-color: coral;" onclick="rm(this)">删除</button></th>
+		    </tr>
+		</table>
+		<h1 style="margin-top: 60px;font-size: 60px;" align="center">增删后还能保持主键的顺序</h1>
+	</body>
+</html>
