@@ -1,7 +1,19 @@
-.di1{
+.di1 {
 	margin-left: 300px;
 	margin-right: 200px;
 }
-li{
+
+li {
 	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+
+a:hover {
+	background-color: #CAE0F3;
+	text-decoration: none;
+}
+
+a {
+	color: black;
 }
