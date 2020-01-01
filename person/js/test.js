@@ -3,7 +3,6 @@ var way = 1;
 function change() {
 	if (way == 1) {
 		body.style.backgroundImage = "url(img/yuzhou.jpg)";
-		
 		way = (way+1)%3;
 	} else if(way == 2){
 		body.style.backgroundImage = "url(img/xingkong.jpg)";
