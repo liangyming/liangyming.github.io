@@ -15,5 +15,19 @@ a:hover {
 }
 
 a {
-	color: black;
+	color: aliceblue;
+}
+
+body {
+	background-image: url(../img/xingkong.jpg);
+	background-repeat: no-repeat;
+	background-size: 135%;
+}
+
+#topImg {
+	width: 100%;
+	background: url(../img/daima.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0px;
 }
