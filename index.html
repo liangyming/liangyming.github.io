@@ -1,112 +1,140 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>test</title>
-		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/test.css" />
-		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<script src="js/test.js" type="text/javascript" charset="utf-8"></script>
-	</head>
-	<body id="body">
-		<div class="jumbotron text-center" id="topImg">
-			<h1 style="font-family: 楷体;font-size: 60px;">梁一鸣的个人网站(开发中)</h1>
-			<p>湘潭大学 18网络工程 梁一鸣</p>
+
+<head>
+	<meta charset="utf-8" />
+	<title>test</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/test.css" />
+	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="js/test.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body id="body">
+	<div class="jumbotron text-center" id="topImg">
+		<h1 style="font-family: 楷体;font-size: 60px;">梁一鸣的个人网站(开发中)</h1>
+		<p>湘潭大学 18网络工程 梁一鸣</p>
+	</div>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<!-- <a class="navbar-brand" href="#" onclick="change()">换背景</a> -->
+		<button type="button" onclick="change()">换背景</button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.xtu.edu.cn/">湘潭大学</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://jwxt.xtu.edu.cn/jsxsd/">教务系统</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://jwxy.xtu.edu.cn/">计网学院</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"
+						href="https://portal2020.xtu.edu.cn/cas/login?service=https://portal2020.xtu.edu.cn/personal-center">信息门户</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.asc8384.top/">ASC_8384个人博客</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://blog.lsun.top/">历风小站</a>
+				</li>
+			</ul>
 		</div>
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<!-- <a class="navbar-brand" href="#" onclick="change()">换背景</a> -->
-			<button type="button" onclick="change()">换背景</button>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav">
+	</nav>
+	<div class="container" style="margin-top:20px;background-color: dimgray;color: aliceblue;">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>关于我</h2>
+				<h5>我的照片:</h5>
+				<div class="fakeimg"><img src="img/touxiang.jpg" width="300px" height="280px"></div>
+				<p>个人介绍: 头发还很多,因为我不熬夜不加班</p>
+				<h2>web作业</h2>
+				<p>看着还行,但每一个都是用心写的</p>
+				<ul class="nav nav-pills flex-column">
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.xtu.edu.cn/">湘潭大学</a>
+						<a class="nav-link active" href="https://csn-001.github.io/first/">作业一</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="http://jwxt.xtu.edu.cn/jsxsd/">教务系统</a>
+						<a class="nav-link active" href="https://csn-001.github.io/work1/">作业二</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="http://cie.xtu.edu.cn/ciextu_new/">信息学院</a>
+						<a class="nav-link active" href="https://csn-001.github.io/junxun/">作业三</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="http://portal.xtu.edu.cn/zfca/login?service=http%3A%2F%2Fportal.xtu.edu.cn%2Fportal.do">信息门户</a>
+						<a class="nav-link active" href="https://csn-001.github.io/jiaxiang/">作业四</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.asc8384.top/">ASC_8384个人博客</a>
+						<a class="nav-link active" href="https://csn-001.github.io/copy_web/">作业五</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="http://blog.lsun.top/">历风小站</a>
+						<a class="nav-link active" href="https://csn-001.github.io/news/">作业六</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/tianmao/">作业七</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/js1/">作业八</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/9book/">作业九</a>
+					</li>
+				</ul>
+				<hr class="d-sm-none">
+			</div>
+			<div class="col-sm-8" style="border-left: 3px solid orange;">
+				<h2>我的项目</h2>
+				<div class="fakeimg"><a href="img/feiji.jpg"><img src="img/feiji.jpg" height="280px"></a></div>
+				<p>图：Python自制飞机大战</p>
+				<p>Python飞机大战：xxx(暂时没上传github)</p>
+				<p>微信小程序项目《球约时代》：xxx(暂时没上传github)</p>
+				<p>Java日历程序：xxx(暂时没上传github)</p>
+				<br>
+				<h2>我的博客</h2>
+				<div class="fakeimg"><a href="img/boke2.png"><img src="img/boke2.png" height="280px"></a></div>
+				<ul class="blog nav nav-pills flex-column">
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/first/">数据分析与机器学习</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/work1/">Python</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/junxun/">Web前端</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/jiaxiang/">计算机网络与安全</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/copy_web/">C语言/C++</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/news/">操作系统</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/tianmao/">程序人生</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/js1/">计算机组成原理</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/9book/">数据结构与算法</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://csn-001.github.io/9book/">数据库</a>
 					</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="container" style="margin-top:20px;background-color: dimgray;color: aliceblue;">
-			<div class="row">
-				<div class="col-sm-4">
-					<h2>关于我</h2>
-					<h5>我的照片:</h5>
-					<div class="fakeimg"><img src="img/touxiang.jpg" width="300px" height="280px"></div>
-					<p>个人介绍: 头发还很多,因为我不熬夜不加班</p>
-					<h2>web作业</h2>
-					<p>看着还行,但每一个都是用心写的</p>
-					<ul class="nav nav-pills flex-column">
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/first/">作业一</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/work1/">作业二</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/junxun/">作业三</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/jiaxiang/">作业四</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/copy_web/">作业五</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/news/">作业六</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/tianmao/">作业七</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/js1/">作业八</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="https://csn-001.github.io/9book/">作业九</a>
-						</li>
-					</ul>
-					<hr class="d-sm-none">
-				</div>
-				<div class="col-sm-8" style="border-left: 3px solid orange;">
-					<h2>我的项目</h2>
-					<div class="fakeimg"><a href="img/feiji.jpg"><img src="img/feiji.jpg" height="280px"></a></div>
-					<p>图：Python自制飞机大战</p>
-					<p>Python飞机大战：xxx(暂时没上传github)</p>
-					<p>微信小程序项目《球约时代》：xxx(暂时没上传github)</p>
-					<p>Java日历程序：xxx(暂时没上传github)</p>
-					<br>
-					<h2>我的博客</h2>
-					<div class="fakeimg"><a href="img/boke2.png"><img src="img/boke2.png" height="280px"></a></div>
-					<p>水平有限,还请各位大佬指教</p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/95635837">顺序表元素的查找、插入与删除</a></p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/100882351">VMware安装完后，没有虚拟网卡出现(没有vmnet0、wmnet1和vmnet8)</a></p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/101111902">win10 64位系统关于oracle sql
-							developer添加java.exe无用问题</a></p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/101382458">最新最全面的Oracle11G完全卸载步骤</a></p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/103546098">洛谷训练场 P1047 校门外的树(Java)</a></p>
-					<p><a href="https://blog.csdn.net/UCB001/article/details/103576094">Oracle数据库SQL连接查询及SQL左右连接中的on and和on where的区别</a></p>
-				</div>
-			</div>
 		</div>
-		<div class="jumbotron text-center" style="margin-bottom:0">
-			<p>暂时未开发区域</p>
-		</div>
-	</body>
+	</div>
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<p>暂时未开发区域</p>
+	</div>
+</body>
+
 </html>

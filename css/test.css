@@ -8,7 +8,6 @@ li {
 	margin-left: 25px;
 }
 
-
 a:hover {
 	background-color: #CAE0F3;
 	text-decoration: none;
@@ -30,4 +29,11 @@ body {
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 	margin: 0px;
+}
+
+.blog{
+	display: flex;
+	width: 30%;
+	margin-top: 30px;
+	justify-content: space-around;
 }
