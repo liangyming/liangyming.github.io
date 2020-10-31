@@ -31,9 +31,13 @@ body {
 	margin: 0px;
 }
 
-.blog{
+.col-sm-8 ul{
 	display: flex;
-	width: 30%;
+	flex-direction: row;
+	width: 100%;
 	margin-top: 30px;
 	justify-content: space-around;
+}
+.col-sm-8 ul li{
+	width: 30%;
 }
